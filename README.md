@@ -4,12 +4,12 @@ This is an AI Assistant demo developed on Rasa Open Source for our intership por
 
 ## 1. Python Environment Setup
 
-    First you should check your python and pip versions.
+   First you should check your python and pip versions.
 
 
 
-    If these packages are already installed you should see your version numbers.
-    If not you have to install the supported version of the Python. We used Python 3.8.0 for our project but you should check which versions are supported at the time.
+   If these packages are already installed you should see your version numbers.
+   If not you have to install the supported version of the Python. We used Python 3.8.0 for our project but you should check which versions are supported at the time.
     
 ## 2. Virtual Environment Setup
 
