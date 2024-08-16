@@ -1,4 +1,4 @@
-This is an AI Assistant demo developed on Rasa Open Source for our intership porject.
+This is an AI Assistant demo developed on Rasa Open Source for our intership project.
 
 # How to Use Rasa
 
