@@ -16,10 +16,13 @@ If not you have to install the supported version of the Python. We used Python 3
 ## 2. Virtual Environment Setup
 
 Create a new virtual environmet fort he project. If you don’t use virtual environment thing will get messy.
+```
+py -m venv .\(this is where your virtual environment will be created)
+```
 
 To activate your virtual environment:
 ```
-py -m venv .\(this is where your virtual environment will be created)
+.\(your virtual environment)\Scripts\activate
 ```
 ## 3. Installing Rasa
 
@@ -51,12 +54,14 @@ After you done with the files you will use:
 ```
 rasa train
 ```
-Your trained model will be inside of the Models folder.
+Your trained model will be inside of the models folder.
 
 ## 6. Testing Your Model
 You will use this command to communicate with your bot:
 ```
 rasa shell .\models\(your model goes here)
 ```
+
+For further informations: https://rasa.com/docs/rasa/
 
     
