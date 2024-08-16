@@ -6,6 +6,12 @@ This is an AI Assistant demo developed on Rasa Open Source for our intership por
 
 First you should check your python and pip versions.
 
+```
+python3 --version
+pip3 --version
+
+```
+
 
 
 If these packages are already installed you should see your version numbers.
@@ -17,6 +23,8 @@ Create a new virtual environmet fort he project. If you don’t use virtual envi
 
 
 To activate your virtual environment:
+
+
 
 
 ## 3. Installing Rasa
