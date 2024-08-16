@@ -40,12 +40,20 @@ You should prepare your data for at least these three files:
 
 ### NLU.yml
 In this file you will add all your examplary sentences for certain intents of the users. You will also add these custom intents to the domain.yml file.
+
+<img width="640" alt="nlu intent" src="https://github.com/user-attachments/assets/0ba3fbaf-a8fe-48bc-b107-d0bf47562043">
+
         
 ### Stories.yml
 This file is where Rasa make decisions what will it do for certain sceneraios. If you want to make a complex AI Assistant, you can also use actions.py to add different features. If you want your AI should only respond with your given sentences, you should use predefined “utter” function in the domain file.
+
+<img width="318" alt="stories" src="https://github.com/user-attachments/assets/1690607e-e8cb-4727-a18f-22a12551e97d">
     
 ### Domain.yml
 This is where your Rasa actually works. Every intent you defined in the nlu.yml file should be in the domain. You will use predefined “utter” function for bot responses.
+
+<img width="212" alt="domain1" src="https://github.com/user-attachments/assets/6a12836d-e52a-4b2f-957e-a4dfcd445044">
+<img width="484" alt="domanin2" src="https://github.com/user-attachments/assets/2b7a3497-d733-4035-9cac-bbe30d580e7e">
     
 
 ## 5. Training Rasa
