@@ -31,14 +31,14 @@ After the installation of the Rasa, you can create a new project with this comma
 
 You should prepare your data for at least these three files:
 
-###NLU.yml
+### NLU.yml
 In this file you will add all your examplary sentences for certain intents of the users. You will also add these custom intents to the domain.yml file.
         
     
-###Stories.yml
+### Stories.yml
 This file is where Rasa make decisions what will it do for certain sceneraios. If you want to make a complex AI Assistant, you can also use actions.py to add different features. If you want your AI should only respond with your given sentences, you should use predefined “utter” function in the domain file.
     
-###Domain.yml
+### Domain.yml
 This is where your Rasa actually works. Every intent you defined in the nlu.yml file should be in the domain. You will use predefined “utter” function for bot responses.
     
 
